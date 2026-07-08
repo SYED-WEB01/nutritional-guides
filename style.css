@@ -202,7 +202,7 @@ ul { list-style: none; }
 /* RESPONSIVE */
 @media (max-width: 1024px) {
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-image-wrap { display: none; }
+  .hero-image-wrap { display: block; }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-top { grid-template-columns: 1fr 1fr; }
