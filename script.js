@@ -50,7 +50,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 document.querySelectorAll('.service-card, .result-card, .testimonial-card, .contact-item, .credential, .stat, .challenge-inner').forEach(el => {
-  el.style.opacity = '0';
+  el.style.opacity = '1'
   el.style.transform = 'translateY(20px)';
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
