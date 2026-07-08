@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
 
 // WhatsApp form sender
 function sendWhatsApp() {
-  const name = document.getElementById('name').value.trim();
+  const name = document.getElementById('name').value.trim(); 
   const phone = document.getElementById('phone').value.trim();
   const goal = document.getElementById('goal').value;
   const message = document.getElementById('message').value.trim();
