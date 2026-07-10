@@ -3,7 +3,7 @@
   --dark: #f0f9ff;
   --dark2: #e0f2fe;
   --dark3: #bae6fd;
-  --gold: #0eafe9;
+  --gold: #0369A1;
   --gold-light: #38bdf8;
   --gold-dark: #0284c7;
   --white: #0f172a;
@@ -40,7 +40,7 @@ ul { list-style: none; }
 .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(10,10,10,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid var(--white-10); transition: var(--transition); }
 .nav-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; }
 .nav-logo { display: flex; align-items: center; gap: 10px; }
-.logo-img { height: 44px; width: auto; object-fit: contain; }
+.logo-img { height: 44px; width: auto; object-fit : cover: object-position: top; }
 .logo-text { font-family: var(--font-display); font-size: 1.2rem; color: var(--gold); font-weight: 700; }
 .nav-links { display: flex; align-items: center; gap: 32px; }
 .nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--white-80); transition: var(--transition); }
@@ -102,7 +102,7 @@ ul { list-style: none; }
 .philosophy-item p { color: var(--white-80); font-size: 0.9rem; margin: 0; }
 
 /* 28 DAY CHALLENGE */
-.challenge { padding: 80px 0; background: linear-gradient(135deg, #0a0a0a 0%, #1a1200 50%, #0a0a0a 100%); border-top: 1px solid rgba(212,175,55,0.15); border-bottom: 1px solid rgba(212,175,55,0.15); }
+.challenge { padding: 80px 0; background: #ffffff; border-top: 1px solid rgba(212,175,55,0.15); border-bottom: 1px solid rgba(212,175,55,0.15); }
 .challenge-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 .challenge-text p { color: var(--white-80); margin-bottom: 24px; font-size: 1.05rem; }
 .challenge-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
