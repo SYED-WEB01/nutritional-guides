@@ -17,13 +17,17 @@ function sendWhatsApp() {
     alert('Please fill in your Name, Phone Number, and Health Goal.');
     return;
   }
-  const text = Hi Dt. Ashmeet! 🙏\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Goal:* ${goal}${message ? `\n*Message:* ${message} : ''}\n\nI'd like to book a free consultation.`;
-  const url = https://wa.me/917569603343?text=${encodeURIComponent(text)};
-  const link = document.createElement('a');
+  var text = 'Hi Dt. Ashmeet! \n\n*Name:* ' + name + '\n*Phone:* ' + phone + '\n*Goal:* ' + goal;
+  if (message) {
+    text += '\n*Message:* ' + message;
+  }
+  text += '\n\nI would like to book a free consultation.';
+  var url = 'https://wa.me/917569603343?text=' + encodeURIComponent(text);
+  var link = document.createElement('a');
   link.href = url;
   link.target = '_blank';
   link.rel = 'noopener';
-  document.body.appendChild(link); 
+  document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 }
