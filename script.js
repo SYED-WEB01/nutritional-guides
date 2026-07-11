@@ -23,7 +23,7 @@ function sendWhatsApp() {
   link.href = url;
   link.target = '_blank';
   link.rel = 'noopener';
-  document.body.appendChild(link);
+  document.body.appendChild(link); 
   link.click();
   document.body.removeChild(link);
 }
