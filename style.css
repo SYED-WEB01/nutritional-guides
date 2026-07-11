@@ -203,7 +203,8 @@ ul { list-style: none; }
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .hero { padding: 120px 16px 56px; }
-  .hero-image-wrap { display: none; }
+  .hero-image-wrap { display: block; max-width: 240px; margin: 24px auto; }
+  .award-badge { font-size: 0.65rem; padding: 8px 10px; }
   .about-grid { grid-template-columns: 1fr; }
   .results-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
