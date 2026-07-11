@@ -31,3 +31,17 @@ function sendWhatsApp() {
   link.click();
   document.body.removeChild(link);
 }
+const gyms = [
+  { name: "Gym Name Here", location: "Area, City" },
+  { name: "Another Gym", location: "Area, City" }
+];
+
+const gymsGrid = document.getElementById('gymsGrid');
+if (gymsGrid) {
+  gyms.forEach(function(gym) {
+    const card = document.createElement('div');
+    card.className = 'gym-card';
+    card.innerHTML = '<h3>' + gym.name + '</h3><p>📍 ' + gym.location + '</p>';
+    gymsGrid.appendChild(card);
+  });
+}
