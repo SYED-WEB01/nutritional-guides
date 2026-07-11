@@ -1,12 +1,12 @@
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
-<<<<<<< HEAD
+ HEAD
 hamburger.addEventListener('click', () => { mobileMenu.classList.toggle('open'); });
 function closeMenu() { mobileMenu.classList.remove('open'); } 
-=======
+
 if (hamburger) hamburger.addEventListener('click', () => { mobileMenu.classList.toggle('open'); });
 function closeMenu() { if (mobileMenu) mobileMenu.classList.remove('open'); }
->>>>>>> a77ed39a42129079778053d454ac58037129c0b9
+ a77ed39a42129079778053d454ac58037129c0b9
 
 window.addEventListener('scroll', () => {
   const navbar = document.getElementById('navbar');
