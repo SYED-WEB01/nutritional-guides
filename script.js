@@ -12,7 +12,7 @@ function sendWhatsApp() {
   const name = document.getElementById('name').value.trim();
   const phone = document.getElementById('phone').value.trim();
   const goal = document.getElementById('goal').value;
-  const message = document.getElementById('message').value.trim();
+  const message = document.getElementById('message').value.trim(); 
   if (!name || !phone || !goal) {
     alert('Please fill in your Name, Phone Number, and Health Goal.');
     return;
