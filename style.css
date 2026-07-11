@@ -18,7 +18,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behav ior: smooth; }
 body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 15px; line-height: 1.7; overflow-x: hidden; }
 img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
@@ -101,7 +101,7 @@ ul { list-style: none; }
 .challenge-list { display: flex; flex-direction: column; gap: 9px; margin-bottom: 24px; }
 .challenge-list li { color: var(--text-80); font-size: 0.86rem; }
 .challenge-images { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.challenge-img { width: 100%; border-radius: 14px; overflow: hidden; border: 2px solid rgba(0,120,212,0.15); box-shadow: 0 8px 24px rgba(0,0,0,0.08); object-fit: cover; height: 300px; }
+.challenge-img { width: 100%; border-radius: 14px; overflow: hidden; border: 2px solid rgba(0,120,212,0.15); box-shadow: 0 8px 24px rgba(0,0,0,0.08); object-fit: contain; background: #f0f7ff; height: 300px; }; }
 
 /* SERVICES */
 .services { padding: 80px 0; background: var(--bg2); }
@@ -215,7 +215,7 @@ ul { list-style: none; }
   .stat-divider { display: none; }
   .services-note { flex-direction: column; text-align: center; }
   .challenge-images { grid-template-columns: 1fr; }
-  .challenge-img { height: 220px; }
+  .challenge-img { height: 340px; }
   body { font-size: 14px; }
 }
 
