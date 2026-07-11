@@ -102,6 +102,11 @@ ul { list-style: none; }
 .challenge-list li { color: var(--text-80); font-size: 0.86rem; }
 .challenge-images { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .challenge-img { width: 100%; border-radius: 14px; overflow: hidden; border: 2px solid rgba(0,120,212,0.15); box-shadow: 0 8px 24px rgba(0,0,0,0.08); object-fit: contain; background: #f0f7ff; height: 300px; }; }
+.gyms { padding: 70px 0; background: var(--bg2); }
+.gyms-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.gym-card { background: #fff; border: 1px solid rgba(0,120,212,0.1); border-radius: var(--radius); padding: 18px; }
+.gym-card h3 { font-family: var(--font-display); font-size: 1rem; margin-bottom: 6px; }
+.gym-card p { color: var(--text-80); font-size: 0.82rem; }
 
 /* SERVICES */
 .services { padding: 80px 0; background: var(--bg2); }
@@ -213,6 +218,7 @@ ul { list-style: none; }
   .footer-top { grid-template-columns: 1fr; gap: 26px; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .stat-divider { display: none; }
+  .gyms-grid { grid-template-columns: 1fr; }
   .services-note { flex-direction: column; text-align: center; }
   .challenge-images { grid-template-columns: 1fr; }
   .challenge-img { height: 340px; }
